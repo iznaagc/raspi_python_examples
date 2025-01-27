@@ -32,7 +32,7 @@ def main():
           time.sleep(0.02) # 20ms 待つ
         
         # LEDの明るさを徐々に減らす
-        for duty_cycle in range(100, -1, -1) # 100%から0%
+        for duty_cycle in range(100, -1, -1): # 100%から0%
           pwm.ChangeDutyCycle(duty_cycle)
           time.sleep(0.02) # 20ms 待つ
   except KeyboardInterrupt:
