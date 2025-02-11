@@ -65,4 +65,4 @@ n = neuralNetwork(input_nodes, hidden_nodes, output_nodes, learning_rate)
 
 #-------------------------------------------------------------
 n_list = n.query([1.0, 0.5, -1.5])
-print(nlist)
+print(n_list)
