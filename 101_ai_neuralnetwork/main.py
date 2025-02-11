@@ -61,7 +61,7 @@ output_nodes = 3
 learning_rate = 0.3
 
 # ニューラルネットワーククラスのインスタンスの生成
-n = neuralNetowrk(input_nodes, hidden_nodes, output_nodes, learning_rate)
+n = neuralNetwork(input_nodes, hidden_nodes, output_nodes, learning_rate)
 
 #-------------------------------------------------------------
 n_list = n.query([1.0, 0.5, -1.5])
