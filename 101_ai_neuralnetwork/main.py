@@ -21,7 +21,7 @@ class neuralNetwork:
 
     # 改善後のコード
     self.wih = numpy.random.normal(0.0, pow(self.hnodes, -0.5), (self.hnodes, self.inodes))
-    self.who = numpy.random.noraml(0,0, pow(self.onodes, -0.5), (self.onodes, self.hnodes))
+    self.who = numpy.random.normal(0,0, pow(self.onodes, -0.5), (self.onodes, self.hnodes))
 
     # 学習率の設定
     self.lr = learningrate
